@@ -19,5 +19,7 @@ dependencies {
     compile "mysql:mysql-connector-java:$mysqlVersion"
     compile "ch.qos.logback:logback-classic:1.1.11"
 
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
+
     testCompile project(":components:test-support")
 }
